@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GifTastic</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/giftastic.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Actors Gif Search</h1>
+
+        <!-- Rendered Buttons will get Dumped Here  -->
+        <div class="row">
+
+            <div class="col-md-12">
+
+                <div id="buttons-view">
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-6">
+
+                <!-- Gifs will Get Dumped Here -->
+                <div id="actors-gifs"></div>
+
+            </div>
+
+            <div class="col-md-6">
+
+                <form id="actor-form">
+                    <label for="movie-input">Add an Actor/Actress!</label>
+                    <input type="text" id="actor-input">
+                    <br>
+
+                    <!-- Button triggers new Actor/Actress to be added -->
+                    <input id="add-actors" type="submit" value="Submit">
+                </form>
+
+            </div>
+
+        </div>
+
+
+</body>
+
+</html>
