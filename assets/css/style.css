@@ -1,0 +1,22 @@
+.actor-btn {
+    background-color: goldenrod;
+    padding: 5px;
+    margin: 5px;
+}
+
+body {
+    background-image: url(http://www.newzbreaker.com/wp-content/uploads/2015/12/HiRes1.jpg);
+}
+
+#add-actors {
+    background-color: goldenrod;
+    color: black
+}
+
+h1 {
+    color: goldenrod;
+
+}
+.actor {
+    color: goldenrod;
+}
